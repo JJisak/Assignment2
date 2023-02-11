@@ -12,7 +12,7 @@ public class Main {
         int guess = scan.nextInt();
 int tries = 4;
         for (int i = 0; i < 5; i++) {
-            if (guess < 0 || guess > 100) {
+            if (guess <= 0 || guess > 100) {
                 System.out.println("Your guess is not between 1 and 100, please try again");
                 i--;
             }
